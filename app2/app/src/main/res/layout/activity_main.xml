@@ -7,8 +7,14 @@
     tools:context="com.example.uc14100797.app2.MainActivity">
 
     <Button
-        android:id="@+id/goFuel"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+        android:id="@+id/goFuelView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGoFuelView"/>
+
+    <Button
+        android:id="@+id/goAutonomyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
