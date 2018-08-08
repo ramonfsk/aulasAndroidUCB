@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.uc14100797.aula02.MainActivity">
+
+<Button
+    android:id="@+id/btnClique"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/nameButton" />
+
+<Button
+    android:id="@+id/btnClique2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/nameButton"
+    android:layout_below="@id/btnClique"
+    />
+
+
+</RelativeLayout>
