@@ -8,15 +8,21 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+
 public class MainActivity extends Activity implements AdapterView.OnItemClickListener {
 
     ListView listView;
     ArrayAdapter arrayAdapter;
+    ArrayList arrayImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        arrayImage = new ArrayList();
+        arrayImage.add(R.drawable.models);
 
         arrayAdapter = new ArrayAdapter(
                 this, android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.arrayCars)

@@ -3,7 +3,7 @@
     <string-array name="arrayCars">
         <item>UNO</item>
         <item>PALIO</item>
-        <item>MODEL S</item>
+        <item></item>
         <item>KOMPASS</item>
     </string-array>
 </resources>
