@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ExampleListView</string>
+    <string-array name="arrayCars">
+        <item>UNO</item>
+        <item>PALIO</item>
+        <item>MODEL S</item>
+        <item>KOMPASS</item>
+    </string-array>
 </resources>
