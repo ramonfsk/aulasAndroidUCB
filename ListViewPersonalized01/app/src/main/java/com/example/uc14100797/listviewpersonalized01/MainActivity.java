@@ -18,6 +18,8 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     ListView listViewCar;
     AdapterCar arrayAdapter;
     ArrayList<Car> carros;
+    Car carro;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +31,15 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         );*/
 
         carros = new ArrayList<Car>();
-        Car carro = new Car();
+        carro = new Car();
 
+        carro.setModelo("uno");
+        carro.setFabricante("FIAT");
+        carro.setCodFabricante(R.drawable.logofiat);
+
+        carros.add(carro);
+
+        carro = new Car();
         carro.setModelo("models");
         carro.setFabricante("TESLA");
         carro.setCodFabricante(R.drawable.tesla_logo);
