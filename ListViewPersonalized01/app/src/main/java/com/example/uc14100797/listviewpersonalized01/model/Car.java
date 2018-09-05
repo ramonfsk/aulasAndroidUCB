@@ -23,4 +23,14 @@ public class Car {
 
     private String fabricante;
     private String modelo;
+
+    public int getCodFabricante() {
+        return codFabricante;
+    }
+
+    public void setCodFabricante(int codFabricante) {
+        this.codFabricante = codFabricante;
+    }
+
+    private int codFabricante;
 }
