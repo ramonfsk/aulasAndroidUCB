@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">kotlin</string>
+    <string name="btnClick">Clique</string>
+</resources>
